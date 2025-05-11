@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Engine</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body{
+    background-color: black;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <h1>Template Engine using express</h1>
+    <h1>Fruit price list</h1>
+    <table>
+        <th>Fruit</th>
+        <th>Price</th>
+        <tr>
+            <td>
+                <%= fruits.name %>
+            </td>
+            <td>
+                <%= fruits.price %>
+            </td>
+        </tr>
+    </table>
+    <ol>
+        <li><%= fruits.name %> <%= fruits.price %></li>
+        <button><%= fruits.price %></button>
+    </ol>
+</body>
+</html>
